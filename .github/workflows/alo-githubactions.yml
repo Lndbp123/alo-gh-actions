@@ -2,8 +2,7 @@ name: Exemplo de fluxo de trabalho
 
 on:
     workflow_dispatch:
-
-  jobs:
+jobs:
     acao_inicial_jobs:
       runs-on: ubuntu-latest
       steps:
